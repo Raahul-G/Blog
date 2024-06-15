@@ -1,0 +1,58 @@
+site_name: RG's Blogs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lightbulb-outline 
+        name: Switch to dark mode
+      primary: black
+      accent: green 
+    - scheme: slate 
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode    
+      primary: white
+      accent: green
+  font: 
+    text: Roboto
+    code: Roboto Mono
+  plugins:
+    - social
+    - search
+  extra:
+    social:
+      - icon: fontawesome/brands/github-alt
+        link: https://github.com/Raahul-G
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/graahul/
+  markdown_extensions:
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - admonition
+    - pymdownx.arithmatex:
+        generic: true
+    - footnotes
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.mark
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2024 <a href="ttps://github.com/Raahul-G"  target="_blank" rel="noopener">Raahul Gupta</a>
