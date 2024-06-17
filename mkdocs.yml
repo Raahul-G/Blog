@@ -1,5 +1,4 @@
 site_name: RG's Blogs
-site_url: http://127.0.0.1:8000
 theme:
   name: material
   features:
@@ -55,9 +54,6 @@ theme:
     - pymdownx.superfences
     - pymdownx.mark
     - attr_list
-    - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
   &copy; 2024 <a href="ttps://github.com/Raahul-G"  target="_blank" rel="noopener">Raahul Gupta</a>
