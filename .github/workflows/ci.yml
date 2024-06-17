@@ -1,5 +1,4 @@
 name: ci 
-
 on:
   push:
     branches:
@@ -24,4 +23,3 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force
-
